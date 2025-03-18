@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <link href='style.css' rel='stylesheet' />
+</head>
+<body>
+  <header>
+    <h1>CSS Box Model</h1>
+  </header>  
+  <main>
+    <img src='https://raw.githubusercontent.com/Codecademy/docs/main/media/css-box-model.svg'>
+    <table>
+      <thead>
+        <tr>
+          <th scope='col'><h2>Property</h2></th>
+          <th scope='col'><h2>Values</h2></th>
+          <th scope='col'><h2>Description</h2></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan='2'>box-sizing</td>
+          <td>content-box</td>
+          <td>Default value of box-sizing; Does not include padding and border to render the content's size</td>
+        </tr> 
+        <tr>
+          <td>border-box</td>
+          <td>It considers the size of the element as a whole, including padding and margin</td>
+        </tr>
+          <td rowspan='3'>overflow</td>
+          <td>visible</td>
+          <td>Default value, the content wil take extra space if it is bigger than its container</td>
+        </tr>
+        <tr>
+          <td>hidden</td>
+          <td>Hides the content that overflows </td>
+        </tr>
+        <tr>
+          <td>scroll</td>
+          <td>The overflowing content will be accessible via scroll bars within the original container</td>
+        </tr>
+        <tr>
+          <td>padding</td>
+          <td>different units of measurement</td>
+          <td>Defines the amount of space between the actual content and the border</td>
+        </tr>
+          <td>margin</td>
+          <td>different units of measurement</td>
+          <td>Defines the amount of space between the border of the content and the rest of elements in the web</td>
+      </tbody>  
+    </table>
+  </main>  
+</body>  
